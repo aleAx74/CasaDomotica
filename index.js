@@ -5,7 +5,7 @@ import { protect } from './token.js';
 import { cambiaStato, ottieniStato} from './bulb.js';
 const app = express();
 
-app.use(cors({origin: []}));
+app.use(cors({origin: ["https://casadomotica.onrender.com"]}));
 app.use(express.json());
 
 app.post('/api/register', registerUser);
