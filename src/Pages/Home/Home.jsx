@@ -26,7 +26,7 @@ function Home() {
             <p>Cucina</p>
           </Link>
           <Link to="/sala" className="stanza weather-card">
-            <img src={logoSala} alt="Sala" />
+            <img src={logoSala} alt="Salotto" />
             <p>Sala</p>
           </Link>
         </div>
