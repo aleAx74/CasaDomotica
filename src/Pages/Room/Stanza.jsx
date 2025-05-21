@@ -5,7 +5,7 @@ import './Stanza.css'
 
 function Stanza() {
   const { nome } = useParams();
-  const validRooms = ['bagno', 'stanza', 'cucina', 'sala'];
+  const validRooms = ['bagno', 'stanza', 'cucina', 'salotto'];
 
   
   if (!validRooms.includes(nome)) {
