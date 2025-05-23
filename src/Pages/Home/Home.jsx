@@ -12,7 +12,7 @@ function Home() {
       <h1>Domotic House</h1>
       <div className="home-layout">
         <Meteo />
-        <div className="weather-card casa">
+        <div className="weather-card casa" style={{Heigth: "20vh"}}>
           <Link to="/stanza" className="stanza weather-card">
             <img src={logoLetto} alt="Stanza" />
             <p>Stanza</p>
